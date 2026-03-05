@@ -1,0 +1,19 @@
+{
+  "name": "mongose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "custom-error": "^0.2.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.1",
+    "mongoose-paginate-v2": "^1.9.1"
+  }
+}
